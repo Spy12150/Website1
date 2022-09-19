@@ -1,3 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
-    background: blue
+    background : linear-gradient(to bottom right, lightblue, darkblue);
+    text-align:center
+}
+
+#something {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size:x-large;
+    margin-top: 150px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+
+input {
+    margin: 8px 0;
+    width: 15%;
+    height: 10%;
 }
